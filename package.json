@@ -9,7 +9,7 @@
     "nodemon": "nodemon",
     "dev": "nodemon --watch src -e ts --exec ts-node src/index.ts",
     "build": "tsc",
-    "start": "npm run build && node ./build/index.js",
+    "start": "npm run build && node ./api/index.js",
     "eslint": "eslint src --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

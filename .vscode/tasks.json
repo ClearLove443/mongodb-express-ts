@@ -11,7 +11,7 @@
     {
       "type": "shell",
       "label": "clean app",
-      "command": "rm -rf ./build"
+      "command": "rm -rf ./api"
     },
     {
       "label": "prepare app to debug",
